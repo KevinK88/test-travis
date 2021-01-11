@@ -1,0 +1,9 @@
+language: node_js
+node_js: 
+   - "12"
+scirpt:
+  - echo '***Build starts****'
+  - echo 'Installing dependencies'
+  - npm install
+  - echo 'Running test'
+  - mocha
